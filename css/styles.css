@@ -73,12 +73,6 @@ body{
   background-color: var(--main-backgroundcolor);
 }
 
-.header-nav { }
-
-.header-list { }
-
-.header-item { }
-
 .header-link {
   font-family: 'Roboto';
   font-style: normal;
@@ -86,6 +80,10 @@ body{
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
+}
+
+.header-curretlink {
+  color: var(--accent-color);
 }
 
 .header-link:hover,
