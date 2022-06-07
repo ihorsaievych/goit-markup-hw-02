@@ -11,7 +11,8 @@
   --tagline-backgroundcolor: #2F303A;
   --tagline-color: #FFFFFF;
   --btn-text-color: #FFFFFF;
-  }
+  --btn-accent-backgroundcolor: #188CE8; 
+}
 
 
 body{
@@ -22,6 +23,9 @@ body{
  background-color: var(--main-backgroundcolor);
 }
 
+address{
+  font-style: normal;
+}
 
 .visually-hidden { 
   position: absolute; 
@@ -129,19 +133,21 @@ body{
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--main-color);
-  background-color: var(--accent-backgroundcolor);
+  
+  color: var(--btn-text-color);
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 
 .tagline-btn:hover,
 .tagline-btn:focus { 
-  color: var(--btn-text-color);
-  background-color: var(--accent-color);
+
+  background-color: var(--btn-accent-backgroundcolor);
 }
 /* -------------STRENGTHS----------- */
 .strengths-item-title { 
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-color);
